@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(139, 141, 143);
+}
+
+#calc{
+font-family: Arial, sans-serif;
+background-color: rgb(120, 136, 149);
+border-radius: 15px;
+max-width: 500px;
+overflow: hidden;
+}
+
+#display{
+   width: 100%;
+   padding: 20px; 
+   font-size: 3.5rem;
+   text-align: left;
+   border: none;
+   background-color: rgb(228, 228, 228);
+   color: black;
+}
+
+#keys{
+   display: grid; 
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(58, 124, 124);
+    color: bisque;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(91, 188, 188);
+}
+
+button:active{
+    background-color: rgb(165, 167, 167);
+}
+
+.operator-btn{
+    background-color: rgb(230, 175, 24);
+}
+
+.operator-btn:hover{
+    background-color: rgb(237, 196, 85);
+}
+
+.operator-btn:active{
+    background-color: rgb(192, 184, 162);
+}
+
+#animationText {
+    display: none;
+    font-size: 4em;
+    color: rgb(222, 39, 39);
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#animationContainer {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#animationImage.animate {
+    width: 200px;
+   height: auto;
+}
+
+#animationContainer.animate {
+    display: block;
+    animation: fadeInOut 5s forwards;
+}
+
+#animationText.animate {
+    display: block;
+    animation: fadeInOut 10s forwards;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+/* .heading-1{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-450px);
+} */
