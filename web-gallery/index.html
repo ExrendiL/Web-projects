@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <!-- <h1>This text is bold</h1> -->
+    <div class="full-img" id="fullImgBox">
+        <img src="" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="swiper">
+        <div class="img-gallery">
+            <img src="assets/1089290 (1).jpg" onclick="openFullImg(this.src)">
+            <img src="assets/22842529.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/3bTE3J4.png" onclick="openFullImg(this.src)">
+            <img src="assets/686866_2.png" onclick="openFullImg(this.src)">
+            <img src="assets/abstract-nature-7680x4320-8k-21456.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/alaska_range_beautiful_mountain_landscape-wallpaper-3840x2160.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/andrew-krivulya-inn-art-3-d-taverna.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/artwork-digital-art-landscape-river-wallpaper-34bcf418eda962a9c4e374a9392182dd.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/chambord-7680x4320-france-loir-et-cher-chateau-castle-travel-893.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/chateau-de-sully-sur-loire-5120x2880-france-castle-travel-tourism-6485.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/fd689354dbc2e9692cb720f02c4271b2.jpg" onclick="openFullImg(this.src)">
+            <img src="assets/letYnV.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </div>
+    <div class="container swiper">
+        <div class="slider-wrapper">
+            <div class="list swiper-wrapper">
+                <div class="list-item swiper-slide">
+                    <img src="assets/1089290 (1).jpg" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/letYnV.jpg" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/fd689354dbc2e9692cb720f02c4271b2.jpg" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/22842529.jpg" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/3bTE3J4.png" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/686866_2.png" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/alaska_range_beautiful_mountain_landscape-wallpaper-3840x2160.jpg" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/andrew-krivulya-inn-art-3-d-taverna.jpg" onclick="openFullImg(this.src)">
+                </div>
+                <div class="list-item swiper-slide">
+                    <img src="assets/artwork-digital-art-landscape-river-wallpaper-34bcf418eda962a9c4e374a9392182dd.jpg" onclick="openFullImg(this.src)">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="swiper.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
