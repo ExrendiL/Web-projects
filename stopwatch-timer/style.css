@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/better-than prev-wallpaper-383eaf411c0af9341a7224d794598ec4.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contaier{
+    margin-right: 20px;
+    padding: 1rem;
+    max-width: 300px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(72, 68, 68, 0.685);
+}
+
+.time{
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+h1,
+p{
+    color:azure;
+}
+
+button{
+    padding: 0.4rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid azure;
+}
+
+button:hover{
+    background-color: rgb(63, 62, 62);
+    color: azure;
+}
+
+.timer{
+    font-family: sans-serif;
+    display: inline-block;
+    /* padding: 24px 32px; */
+    border-radius: 30px;
+    padding: 1rem 0; 
+    font-size: 2rem;
+}
+
+.timer-button-start{
+    background: green;
+}
+
+.timer-button-stop{
+    background: red;
+}
+
+.timer-button-reset{
+    background: violet;
+}
+
+.contaier-timer{
+    padding: 1rem;
+    max-width: 300px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(72, 68, 68, 0.685);
+}
