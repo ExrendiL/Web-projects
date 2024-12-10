@@ -792,6 +792,11 @@ footer .copyright{
   font-weight: 600;
 }
 
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+
 #prodetails .single-pro-image{
   width: 40%;
   margin-right: 50px;
@@ -805,4 +810,44 @@ footer .copyright{
 .small-img-col{
   flex-basis: 24%;
   cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+  outline: none;
+}
+
+#prodetails .single-pro-details button{
+  background-color: rgb(207, 180, 30);
+  color: azure;
+}
+
+#prodetails .single-pro-details span{
+  line-height: 25px;
 }
