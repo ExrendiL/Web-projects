@@ -757,6 +757,8 @@ footer .copyright{
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
+  padding-bottom: 90px;
 }
 
 #blog .blog-img{
@@ -784,6 +786,20 @@ footer .copyright{
 
 #blog .blog-details a:hover{
   color: rgb(207, 180, 30);
+}
+
+#blog .blog-box h1{
+  position: absolute;
+  top: -55px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: gainsboro;
+  z-index: -9;
+}
+
+#page-header.about-header{
+  background-image: url(img/about/banner.png);
 }
 
 @media (max-width:477px){
@@ -897,13 +913,33 @@ footer .copyright{
     display: flex;
     flex-direction: column;
   }
-/* something wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
   #prodetails .single-pro-image{
     width: 100%;
     margin-right: 0px;
   }
 
   #prodetails .single-pro-details{
+    width: 100%;
+  }
+
+  #blog{
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-details{
     width: 100%;
   }
 }
