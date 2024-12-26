@@ -123,7 +123,7 @@ body {
   background: rgb(207, 180, 30);
   position: absolute;
   bottom: -4px;
-  left: 30px;
+  left: 20px;
 }
 
 #mobile{
@@ -551,104 +551,6 @@ footer .copyright{
   text-align: center;
 }
 
-@media (max-width:1024px){
-
-  .section-p1{
-    padding: 40px 40px;
-  }
-
-  #navbar{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: azure;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s;
-  }
-
-  #navbar.active{
-    right: 0px;
-  }
-
-  #navbar li{
-    margin-bottom: 25px;
-  }
-
-  #mobile{
-    display: flex;
-    align-items: center;
-  }
-
-  #mobile i{
-    color: #1a1a1a;
-    font-size: 24px;
-    padding-left: 20px;
-  }
-
-  #close{
-    display: initial;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    color: #222;
-    font-size: 24px;
-  }
-
-  #lg-bag{
-    display: none;
-  }
-
-  #hero{
-    height: 70vh;
-    padding: 0 80px;
-    background-position: top 30% right 30%;
-  }
-
-  #feature{
-    justify-content: center;
-  }
-
-  #feature .fe-box{
-    margin: 15px 15px;
-  }
-
-  #product1 .pro-container{
-    justify-content: center;
-  }
-
-  #product1 .pro{
-    margin: 15px;
-  }
-
-  #banner{
-    height: 30vh;
-  }
-
-  #sm-banner .banner-box{
-    min-width: 100%;
-    height: 30vh;
-  }
-
-  #banner3{
-    padding: 0 40px;
-  }
-
-  #banner3 .banner-box{
-    width: 28%;
-  }
-  
-  #newsletter .form{
-    width: 70%;
-  }
-}
-
 #page-header{
   background-image: url(img/banner/b1.jpg);
   width: 100%;
@@ -940,6 +842,111 @@ footer .copyright{
   color: #000;
 }
 
+@media (max-width:1024px){
+
+  .section-p1{
+    padding: 40px 40px;
+  }
+
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: azure;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+  }
+
+  #navbar.active{
+    right: 0px;
+  }
+
+  #navbar li{
+    margin-bottom: 25px;
+  }
+
+  #mobile{
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i{
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  #lg-bag{
+    display: none;
+  }
+
+  #hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature{
+    justify-content: center;
+  }
+
+  #feature .fe-box{
+    margin: 15px 15px;
+  }
+
+  #product1 .pro-container{
+    justify-content: center;
+  }
+
+  #product1 .pro{
+    margin: 15px;
+  }
+
+  #banner{
+    height: 30vh;
+  }
+
+  #sm-banner .banner-box{
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #banner3{
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box{
+    width: 28%;
+  }
+  
+  #newsletter .form{
+    width: 70%;
+  }
+
+  #form-details{
+    padding: 80px;
+  }
+
+  #form-details form{
+    width: 50%;
+  }
+}
 
 @media (max-width:477px){
 
@@ -1097,5 +1104,29 @@ footer .copyright{
 
   #about-app .video{
     width: 100%;
+  }
+
+  #contact-details{
+    flex-direction: column;
+  }
+
+  #contact-details .details{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact-details .map{
+    width: 100%;
+  }
+
+  #form-details{
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+
+  #form-details form{
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
