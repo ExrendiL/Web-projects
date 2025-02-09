@@ -84,7 +84,7 @@ const TicTacToe = () => {
     setLock(false);
     data = ["","","","","","","","",""];
     titleRef.current.innerHTML = 'Tic Tac Toe';
-    boxArray.map((e)=>{
+    boxArray.forEach((e)=>{
       e.current.innerHTML = "";
     })
   }
