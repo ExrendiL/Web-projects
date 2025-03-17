@@ -1,4 +1,4 @@
 <<<<<<< HEAD
 =======
-hello, i'm just hello
+1
 >>>>>>> 07e560b (test---)
