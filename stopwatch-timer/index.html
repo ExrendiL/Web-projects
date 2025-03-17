@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch/Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="contaier">
+        <h1>Stopwatch</h1>
+        <p class="time">
+           <span id="minutes">00</span>:  <span id="seconds">00</span>: <span id="tens">00</span> 
+        </p>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </div>
+    <!-- <div class="contaier-timer">
+        <h1>Timer</h1>
+        <p class="timer">
+        <span class="timer__part timer__part--minutes">00</span>
+        <span class="timer__part">:</span>
+        <span class="timer__part timer__part--seconds">00</span>
+        </p>
+        <button type="button" class="timer-button timer-button-control timer-button-start">
+            <span class="material-icons">play_arrow</span>
+        </button>
+        <button type="button" class="timer-button timer-button-reset">
+            <span class="material-icons">timer</span>
+        </button>
+    </div> -->
+    <div class="container-timer"></div>
+
+    <script src="stopwatch-timer.js" type = "module"></script>
+    <script src="timer.js" type = "module"></script>
+</body>
+</html>
